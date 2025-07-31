@@ -51,3 +51,12 @@ Pandas stands for Python Data Analysis Library. It is a library written in C and
 
    - `.groupby()`
    - `.agg()`, `.transform()`, `.filter()`
+
+7. **Merging & Joining Data**
+
+   - `pd.merge()`
+   - `pd.concat()`
+
+8. **Reading & Writing Files**
+   - CSV
+   - Excel
