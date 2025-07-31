@@ -1,0 +1,97 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.envrc
+.venv/
+code/.ipynb_checkpoints
+ENV/
+env/
+.local/
+.mypy_cache/
+.pytest_cache/
+.coverage
+.cache/
+.tox/
+.nox/
+pip-wheel-metadata/
+pip-log.txt
+code/mydb.sqlite
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# dotenv
+*.env
+*.env.*
+
+# Poetry
+poetry.lock
+
+# Pyproject.toml (explicitly ignored as requested)
+pyproject.toml
+.python-version
+
+# UV cache
+.uv/
+
+# Requirements
+requirements.txt
+
+# Misc
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# Git directories
+.git/
+.gitmodules
+.gitattributes
